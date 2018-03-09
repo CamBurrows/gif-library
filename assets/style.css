@@ -1,0 +1,26 @@
+body  {
+    background-image:url("https://wallpapertag.com/wallpaper/full/a/0/f/157264-soccer-field-background-1920x1200-ipad-pro.jpg")
+}
+
+.imgcard {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url("silver-bg.jpg");
+}
+
+.gif-section {
+    margin: 0px auto;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+.copy {
+    float: right;
+    border-radius: 8px;
+    display: none;
+}
