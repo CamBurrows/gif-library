@@ -37,7 +37,7 @@
 
     <div class="row">
             <div class="col-md-12 gif-section"></div>
-        </div>
+    </div>
 
 
 
@@ -48,7 +48,7 @@
     
     <script type="text/javascript">
     
-new ClipboardJS('.copy');
+//new ClipboardJS('.copy');
     
     var topics = ["manchester united", "arsenal", "tottenham" , "liverpool", "chelsea fc", 
     "barcelona", "real madrid", "psg", "bayern munich", "dortmund", "juventus", "pogba", "lingard",
@@ -78,7 +78,7 @@ new ClipboardJS('.copy');
 
         var searchTerm = $(this).attr("data-name");
 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=dc6zaTOxFJmzC&limit=20";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=dc6zaTOxFJmzC&limit=20";
         
         $.ajax({
             url: queryURL,
