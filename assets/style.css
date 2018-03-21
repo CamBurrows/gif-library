@@ -3,8 +3,8 @@ body  {
 }
 
 .imgcard {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px 20px;
     border: 1px solid grey;
     border-radius: 10px;
     background-image: url("silver-bg.jpg");
@@ -20,11 +20,28 @@ body  {
 }
 
 .copy {
-    float: right;
     border-radius: 8px;
-    display: none;
+    /* display: none; */
 }
 
 #directions {
     color: white;
+}
+
+/* #hidethis {
+    display: none;
+} */
+
+#gif {
+    padding: auto;
+}
+
+.gif-container {
+    max-width: 90%;
+}
+
+@media screen and (max-width:450px){
+    .gif-container {
+        max-width: none;
+    }
 }
